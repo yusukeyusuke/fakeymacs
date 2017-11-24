@@ -153,6 +153,12 @@ def configure(keymap):
                             "ttermpro.exe",       # TeraTerm
                             "MobaXterm.exe",      # MobaXterm
                             "TurboVNC.exe",       # TurboVNC
+                            "Fusion360.exe",      # Fusion360
+                            "blender-app.exe",       # Blender
+                            "blender.exe",       # Blender
+                            "sublime_text.exe",       # SublimeText
+                            "idea.exe",       # IntelliJ
+                            "higan.exe",       # Higan
                             "vncviewer.exe"]      # UltraVNC
 
     # IME の切り替え“のみをしたい”アプリケーションソフトを指定する
@@ -169,13 +175,19 @@ def configure(keymap):
                             "xyzzy.exe",          # xyzzy
                             "putty.exe",          # PuTTY
                             "ttermpro.exe",       # TeraTerm
+                            "Fusion360.exe",      # Fusion360
+                            "blender-app.exe",       # Blender
+                            "blender.exe",       # Blender
+                            "sublime_text.exe",       # SublimeText
+                            "idea.exe",       # IntelliJ
+                            "higan.exe",       # Higan
                             "MobaXterm.exe"]      # MobaXterm
 
     # clipboard 監視の対象外とするアプリケーションソフトを指定する
     not_clipboard_target = ["EXCEL.EXE"]          # Excel
 
     # 日本語キーボードかどうかを指定する（True: 日本語キーボード、False: 英語キーボード）
-    is_japanese_keyboard = True
+    is_japanese_keyboard = False
 
     # 左右どちらの Ctrlキーを使うかを指定する（"L": 左、"R": 右）
     side_of_ctrl_key = "L"
